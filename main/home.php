@@ -1,0 +1,191 @@
+<?php
+include __DIR__."/header.php";
+?>
+  <section class="d-flex align-items-center justify-content-center text-center text-white position-relative min-vh-100" 
+             style="background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)), url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;">
+        <div class="container px-4">
+            <div class="reveal-up">
+                <h1 class="display-3 fw-light text-uppercase tracking-wide mb-3" style="letter-spacing: 3px;">
+                    Experience Luxury <br><span class="fw-semibold" style="color: #c29d59;">at De Bencap</span>
+                </h1>
+                <p class="lead fs-5 text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;">
+                    Where comfort meets sophistication in the heart of Lagos.
+                </p>
+            </div>
+
+            <div class="reveal-up p-4 mx-auto rounded shadow-lg text-start" style="background-color: #121c2c; max-width: 900px; border: 1px solid rgba(194, 157, 89, 0.25);">
+                <span class="d-block text-center text-uppercase tracking-wider fw-semibold mb-3" style="color: #c29d59; font-size: 0.8rem; letter-spacing: 2px;">Check Availability</span>
+                <div class="row g-3 align-items-end">
+                    <div class="col-md-3 col-sm-6">
+                        <label class="form-label text-white-50 small">Arrival Date</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-transparent text-white-50 border-secondary"><i class="bi bi-calendar-event"></i></span>
+                            <input type="date" class="form-control bg-transparent text-white border-secondary">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <label class="form-label text-white-50 small">Departure Date</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-transparent text-white-50 border-secondary"><i class="bi bi-calendar-event"></i></span>
+                            <input type="date" class="form-control bg-transparent text-white border-secondary">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <label class="form-label text-white-50 small">Guests</label>
+                        <select class="form-select bg-transparent text-white border-secondary" style="color-scheme: dark;">
+                            <option value="1" class="text-dark">1 Guest</option>
+                            <option value="2" class="text-dark" selected>2 Guests</option>
+                            <option value="3" class="text-dark">3 Guests</option>
+                            <option value="4" class="text-dark">4+ Guests</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <button class="btn w-100 rounded-0 py-2 text-uppercase fw-bold text-white border-0" style="background-color: #c29d59;">Check Availability</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 my-5">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 reveal-left">
+                    <h2 class="display-5 fw-normal mb-4" style="color: #121c2c;">Welcome to <br><span class="fw-bold" style="color: #c29d59;">De Bencap</span></h2>
+                    <p class="text-secondary leading-relaxed mb-4">
+                        De Bencap Hotel & Lounge is a sanctuary of refined luxury, comfort, and hospitality. Designed for discerning travelers, our exquisitely appointed rooms and world-class dining settings offer an oasis of calm in the vibrant energy of Lagos.
+                    </p>
+                    <p class="text-secondary leading-relaxed mb-4">
+                        Experience bespoke service, meticulously tailored layouts, and premium amenities crafted to satisfy your every luxury need.
+                    </p>
+                    <button class="btn btn-dark rounded-0 px-4 py-2 mt-2 text-uppercase fw-semibold" style="letter-spacing: 1px;">Book Your Stay</button>
+                </div>
+                <div class="col-lg-6 reveal-right">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4db85b?auto=format&fit=crop&w=800&q=80" alt="De Bencap Lobby" class="img-fluid rounded shadow-lg w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms" class="py-5 bg-white">
+        <div class="container py-4 text-center">
+            <div class="reveal-up mb-5">
+                <h2 class="display-5 fw-bold" style="color: #121c2c;">Explore Our Rooms</h2>
+                <p class="text-secondary mx-auto" style="max-width: 600px;">Explore our rooms and suites built to evoke unparalleled comfort and absolute peace of mind.</p>
+            </div>
+
+            <div class="swiper mySwiper pb-5 reveal-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide h-auto">
+                        <div class="card h-100 border-0 shadow-sm rounded-0 text-start">
+                            <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=600&q=80" class="card-img-top rounded-0" alt="Luxury Suite" style="height: 250px; object-fit: cover;">
+                            <div class="card-body p-4">
+                                <h4 class="card-title fw-bold" style="color: #121c2c;">Luxury Suite</h4>
+                                <h5 class="fw-bold mb-3" style="color: #c29d59;">$280.00 <span class="small text-secondary fw-normal">/ Night</span></h5>
+                                <p class="card-text text-secondary small">Spacious luxury suite with panoramic city views, custom King size bedding, and high-speed fiber internet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-auto">
+                        <div class="card h-100 border-0 shadow-sm rounded-0 text-start">
+                            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" class="card-img-top rounded-0" alt="Executive Room" style="height: 250px; object-fit: cover;">
+                            <div class="card-body p-4">
+                                <h4 class="card-title fw-bold" style="color: #121c2c;">Executive Room</h4>
+                                <h5 class="fw-bold mb-3" style="color: #c29d59;">$285.00 <span class="small text-secondary fw-normal">/ Night</span></h5>
+                                <p class="card-text text-secondary small">Designed for optimal productivity and relaxation, featuring a private workspace and premium lounge access.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide h-auto">
+                        <div class="card h-100 border-0 shadow-sm rounded-0 text-start">
+                            <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80" class="card-img-top rounded-0" alt="Standard Room" style="height: 250px; object-fit: cover;">
+                            <div class="card-body p-4">
+                                <h4 class="card-title fw-bold" style="color: #121c2c;">Standard Room</h4>
+                                <h5 class="fw-bold mb-3" style="color: #c29d59;">$360.00 <span class="small text-secondary fw-normal">/ Night</span></h5>
+                                <p class="card-text text-secondary small">A refined space offering absolute serenity, modern amenities, and beautifully curated warm lighting arrangements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination mt-4"></div>
+            </div>
+            
+            <button class="btn btn-dark rounded-0 px-5 py-2 mt-3 text-uppercase fw-semibold" style="background-color: #121c2c; letter-spacing: 1px;">Explore More</button>
+        </div>
+    </section>
+
+    <section id="dining" class="py-5">
+        <div class="container py-4">
+            <div class="reveal-up text-center mb-5">
+                <h2 class="display-5 fw-bold" style="color: #121c2c;">Dining & Lounge</h2>
+                <p class="text-secondary mx-auto" style="max-width: 600px;">Indulge in exquisite culinary journeys crafted by our master chefs.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 reveal-left">
+                    <div class="card border-0 text-white overflow-hidden rounded-0 position-relative shadow" style="height: 350px;">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" class="card-img w-100 h-100 rounded-0" alt="The Lounge" style="object-fit: cover;">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end p-4" style="background: linear-gradient(to top, rgba(18, 28, 44, 0.95), rgba(0,0,0,0.2));">
+                            <h3 class="card-title fw-bold">The Lounge</h3>
+                            <p class="card-text text-white-50 small mb-3">Our rooftop terrace lounge offers a serene environment for evening drinks and casual business meetings.</p>
+                            <a href="#" class="text-uppercase fw-bold text-decoration-none small" style="color: #c29d59;">View Details <i class="bi bi-chevron-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 reveal-right">
+                    <div class="card border-0 text-white overflow-hidden rounded-0 position-relative shadow" style="height: 350px;">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" class="card-img w-100 h-100 rounded-0" alt="Bencap Restaurant" style="object-fit: cover;">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end p-4" style="background: linear-gradient(to top, rgba(18, 28, 44, 0.95), rgba(0,0,0,0.2));">
+                            <h3 class="card-title fw-bold">Bencap Restaurant</h3>
+                            <p class="card-text text-white-50 small mb-3">A signature restaurant presenting local and continental dishes styled elegantly by culinary artists.</p>
+                            <a href="#" class="text-uppercase fw-bold text-decoration-none small" style="color: #c29d59;">View Details <i class="bi bi-chevron-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white">
+        <div class="container py-4 text-center">
+            <div class="reveal-up mb-5">
+                <h2 class="display-5 fw-bold text-dark">Guest Testimonials</h2>
+                <p class="text-secondary">What our lovely guests have to say about their unforgettable stays.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4 reveal-up">
+                    <div class="p-4 border rounded shadow-sm h-100 bg-light d-flex flex-column justify-content-between">
+                        <p class="text-secondary italic mb-4">"The standard of room maintenance, outstanding room dining experiences, and incredibly helpful concierge services were second to none."</p>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" class="rounded-circle mb-3" alt="Samuel" style="width: 60px; height: 60px; object-fit: cover;">
+                            <h6 class="fw-bold mb-1">Samuel O.</h6>
+                            <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal-up">
+                    <div class="p-4 border rounded shadow-sm h-100 bg-light d-flex flex-column justify-content-between">
+                        <p class="text-secondary italic mb-4">"A true masterpiece of design. The Lounge serves the best cocktails in Lagos, paired with breathtaking sunset views over the city."</p>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" class="rounded-circle mb-3" alt="Grace" style="width: 60px; height: 60px; object-fit: cover;">
+                            <h6 class="fw-bold mb-1">Grace A.</h6>
+                            <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal-up">
+                    <div class="p-4 border rounded shadow-sm h-100 bg-light d-flex flex-column justify-content-between">
+                        <p class="text-secondary italic mb-4">"Outstanding facilities! Highly recommend the Executive room. The staff goes above and beyond to make you feel right at home."</p>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" class="rounded-circle mb-3" alt="Babatunde" style="width: 60px; height: 60px; object-fit: cover;">
+                            <h6 class="fw-bold mb-1">Babatunde E.</h6>
+                            <div class="text-warning small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-outline-dark rounded-0 px-5 py-2 mt-5 text-uppercase fw-semibold" style="letter-spacing: 1px;">View Details</button>
+        </div>
+    </section>
+<?php
+include __DIR__."/footer.php";
+?>
