@@ -14,7 +14,10 @@ switch ($pageUrl) {
         break; 
         case '/amenties':
             include __DIR__."/main/amenties.php";
-            break;  
+            break; 
+            case '/dining':
+                include __DIR__."main/dining.php";
+                break; 
     
     default:
         # code...
